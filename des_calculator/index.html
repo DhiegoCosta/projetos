@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculadora basic</title>		
+		<script src="calculadora.js"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div id="main">
+            <h1>CALC BASIC</h1>
+            <div id="tela">
+                <input class="tela" type="text" id="valor" disabled>
+            </div>
+            <div id="botoes">
+                <table>
+                    <tr>
+                            <td><button class="botão" id="bot_back" onclick="back()"><</button></td>
+                            <td><button class="botão" id="bot_clean" onclick="clean()">C</button></td>
+                            <td><button class="botão" id="bot_*" onclick="calculo('*')">*</button></td>
+                            <td><button class="botão" id="bot_/" onclick="calculo('/')">/</button></td>
+                    </tr>
+                    <tr>
+                            <td><button class="botão" id="bot_1" onclick="calculo('1')">1</button></td>
+                            <td><button class="botão" id="bot_2" onclick="calculo('2')">2</button></td>
+                            <td><button class="botão" id="bot_3" onclick="calculo('3')">3</button></td>
+                            <td><button class="botão" id="bot_+" onclick="calculo('+')">+</button></td>
+                    </tr>
+                    <tr>
+                            <td><button class="botão" id="bot_4" onclick="calculo('4')">4</button></td>
+                            <td><button class="botão" id="bot_5" onclick="calculo('5')">5</button></td>
+                            <td><button class="botão" id="bot_6" onclick="calculo('6')">6</button></td>
+                            <td><button class="botão" id="bot_-" onclick="calculo('-')">-</button></td>
+                    </tr>
+                    <tr>
+                            <td><button class="botão" id="bot_7" onclick="calculo('7')">7</button></td>
+                            <td><button class="botão" id="bot_8" onclick="calculo('8')">8</button></td>
+                            <td><button class="botão" id="bot_9" onclick="calculo('9')">9</button></td>
+                            <td rowspan="2"><button class="botão" id="bot_igual" onclick="final()">=</button></td>
+                    </tr>
+                    <tr>
+                            <td colspan="2"><button class="botão" id="bot_0" onclick="calculo('0')">0</button></td>
+                            <td><button class="botão" id="bot_." onclick="calculo('.')">.</button></td>
+                    </tr>
+                </table>               
+
+                <!--
+                    <input class="botão" type="button" value="1" onclick="calculo1()">
+                    <input class="botão" type="button" value="2" onclick="calculo2()">
+                    <input class="botão" type="button" value="3" onclick="calculo3()">
+                    <input class="botão" type="button" value="+" onclick="calculoplus()"> <br>
+                    <input class="botão" type="button" value="4" onclick="calculo4()">
+                    <input class="botão" type="button" value="5" onclick="calculo5()">
+                    <input class="botão" type="button" value="6" onclick="calculo6()">
+                    <input class="botão" type="button" value="-" onclick="calculominus()"> <br>
+                    <input class="botão" type="button" value="7" onclick="calculo7()">
+                    <input class="botão" type="button" value="8" onclick="calculo8()">
+                    <input class="botão" type="button" value="9" onclick="calculo9()">
+                    <input class="botão" type="button" value="*" onclick="calculoasterisk()"> <br>
+                    <input class="botão" id="bot0" type="button" value="0" onclick="calculo0()">
+                    <input class="botão" type="button" value="," onclick="calculocomma()">
+                    <input class="botão" type="button" value="/" onclick="calculodivide()">
+                -->
+            </div>
+            <footer>
+                <p>&copy; Dhiego C. web-developer</p>
+            </footer>
+        </div>
+    </body>
+</html>

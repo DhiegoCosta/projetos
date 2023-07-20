@@ -1,0 +1,62 @@
+html {
+    height: 95%;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    background-color: gray;
+  }
+h1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    margin: 10px;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.botão {
+    width: 50px;
+    height: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid gray;
+    margin: 3px;
+    cursor: pointer;
+}
+.botão:hover {
+    background-color: rgb(153, 152, 152);
+}
+.botão:active {
+    background-color: red;
+  }
+.tela {
+    width: 222px;
+    height: 50px;
+    margin: 3px;
+    border: 2px solid black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}
+#main {
+    border: 4px solid black;
+    border-radius: 5%;
+    padding: 5px 20px;
+    background-color: royalblue;
+}
+#bot_igual {
+    height: 109px;
+}
+#bot_0 {
+    width: 109px;
+}
