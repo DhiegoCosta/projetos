@@ -1,3 +1,4 @@
+//teste para commit
 let numero = ''
 let soma = 0
 function calculo(valor) {
