@@ -1,3 +1,4 @@
+/*Programa feito por Dhiego C. Araújo*/
 let segundos = 0
 let minutos = 0
 let horas = 0
